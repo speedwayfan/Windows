@@ -1,0 +1,313 @@
+$colorlink: #eb5825;
+$colorlink2: #8a8a8a;
+$fillcolor: #fff;
+@mixin link{
+	width: 230px;
+    background: #eb5825;
+    text-align: center;
+    border-radius: 3px;
+	transition: background 1s;
+}
+@mixin link-a{
+	color: #fff;
+    padding: 10px;
+    display: block;
+    transition: color 1s;
+}
+
+body{
+	background: #e1f0f8!important;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.container{
+	width: 1147px;
+	margin: 0 auto;
+			&__head{
+		background: $fillcolor;
+	}
+}
+
+.header{
+	margin-bottom: 10px;
+}
+
+.info{
+	margin-left: 80px;
+	text-align: right;
+		&____timer{
+		font-size: 16px;
+	}
+		&__number{
+		font-size: 31px;
+	}
+}
+
+.link__calc{
+	text-align: right;
+}
+
+.logo__img{
+	padding: 10px 0 0 20px;
+}
+
+.logo__img, .link__calc, .info{
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.link__calc-1{
+	font-size: 23px;
+	color: $colorlink;
+	text-decoration: underline;
+	text-align: right;
+	transition: color 1s;
+	&:hover{
+		color: #000;
+	}
+}
+
+.navnav{
+	width: 20%;
+	text-align: center;
+	padding: 10px 0px;
+	font-size: 24px;
+	margin-top: 20px;
+	transition: color 1s;
+	transition: background-color 1s;
+	&:hover{
+		background-color: #7bc3d5;
+		color: #fff!important;
+	}
+}
+
+.navnav__active{
+	background-color: #7bc3d5;
+	color: #fff!important;
+}
+
+.nav__price, .nav__stock{
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+
+
+// -----SECTION-----
+
+.aside{
+	float: left;
+    width: 222px;
+    font-size: 16px;
+    background-color: $fillcolor;
+    padding: 10px;
+    color: $colorlink2;
+    &__title{
+	    margin-bottom: 5px;
+	    font-size: 20px;
+	    font-weight: 500;	
+	    color: #000;
+	    text-decoration: none;
+	}
+}
+
+.aside__link{
+	color: #8a8a8a;
+	text-decoration: underline!important;
+	&:hover{
+		color: #8a8a8a;
+		text-decoration: none!important;
+	}
+}
+
+.title3{
+	margin-bottom: 20px;
+}
+
+.container__right{
+	float: right;
+	width: 860px;
+}
+
+.main{
+	background-color: $fillcolor;
+	margin-bottom: 25px;
+	padding-bottom: 50px;
+	&__title{
+		text-align: center;
+		padding: 20px;
+	}
+}
+
+.section__right{
+	width: 66%;
+	float: right;
+}
+
+.main__img{
+	width: 33%;
+    float: left;
+}
+
+.main__pic{
+	margin: 0 auto;
+    width: 200px;
+    display: block;
+}
+
+.main__pic-comment{
+	width: 200px;
+	margin: 0 auto;
+	text-align: center;
+	color: $colorlink2;
+}
+
+.list__color{
+	margin-left: -40px;
+}
+
+.color__item{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: #9e7150;
+	border-radius: 5px;
+}
+
+.fa-check{
+	color: white;
+    font-size: 60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.color__item:hover .fa-check{
+	opacity: 1;
+}
+
+.desc__color-comment{
+	width: 400px;
+}
+
+.sale{
+	@include link;
+	    &:hover{
+	    background: rgba(247, 57, 0, 0.13);
+	}
+	&__link{
+		@include link-a;
+	}
+}
+
+.sale:hover .sale__link{
+	color: $colorlink;
+	text-decoration: none;
+}
+
+.sale__request-link{
+	color: $colorlink2;
+	text-decoration: underline;
+		&:hover{
+		text-decoration: none;
+		color: $colorlink2;
+	}
+}
+
+.article{
+	padding: 20px 50px 15px 30px;
+	&__content{
+		margin-bottom: 28px;
+	}
+	&__label{
+		margin: 15px 0;
+	}
+}
+
+.label__pic, .paper, .label__num{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.label__pic{
+	width: 50px;
+	margin-right: 35px;
+}
+
+.paper{
+	width: 675px;
+	margin: 0;
+}
+
+.label__num{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    border: 2px solid #000;
+    margin-right: 20px;
+}
+
+.reviews__title, .reviews__another{
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.reviews__another-link{
+	position: relative;
+    left: 240px;
+    font-size: 15px;
+    color: $colorlink!important;
+    border-bottom: 1px solid;
+}
+
+.reviews__alena{
+	margin: 0;
+}
+
+.reviews__stars{
+	color: gold;
+}
+
+.reviews__alena-open{
+	display: none;
+}
+
+.reviews__new{
+		@include link;
+	    &:hover{
+	    background: rgba(247, 57, 0, 0.13);
+	}
+	&_link{
+		@include link-a;
+		text-decoration: none;
+	}
+}
+
+.reviews__alena-link{
+    display: block;
+    border: none;
+    background: none;
+    border-bottom: 2px dashed;
+    color: red;
+    margin-bottom: 10px;
+}
+
+
+
+
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.wrapper:after,
+.wrapper:before {
+  content: " ";
+  display: table;
+  clear: both; }
