@@ -1,0 +1,218 @@
+body {
+  background: #e1f0f8 !important; }
+
+.wrapper {
+  width: 100%;
+  height: 100%; }
+
+.container {
+  width: 1147px;
+  margin: 0 auto; }
+  .container__head {
+    background: #fff; }
+
+.header {
+  margin-bottom: 10px; }
+
+.info {
+  margin-left: 80px;
+  text-align: right; }
+  .info____timer {
+    font-size: 16px; }
+  .info__number {
+    font-size: 31px; }
+
+.link__calc {
+  text-align: right; }
+
+.logo__img {
+  padding: 10px 0 0 20px; }
+
+.logo__img, .link__calc, .info {
+  display: inline-block;
+  vertical-align: bottom; }
+
+.link__calc-1 {
+  font-size: 23px;
+  color: #eb5825;
+  text-decoration: underline;
+  text-align: right;
+  -webkit-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s; }
+  .link__calc-1:hover {
+    color: #000; }
+
+.navnav {
+  width: 20%;
+  text-align: center;
+  padding: 10px 0px;
+  font-size: 24px;
+  margin-top: 20px;
+  -webkit-transition: color 1s;
+  -o-transition: color 1s;
+  transition: color 1s;
+  -webkit-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s; }
+  .navnav:hover {
+    background-color: #7bc3d5;
+    color: #fff !important; }
+
+.navnav__active {
+  background-color: #7bc3d5;
+  color: #fff !important; }
+
+.nav__price, .nav__stock {
+  border-left: 1px solid #000;
+  border-right: 1px solid #000; }
+
+.aside {
+  float: left;
+  width: 222px;
+  font-size: 16px;
+  background-color: #fff;
+  padding: 10px;
+  color: #8a8a8a; }
+  .aside__title {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none; }
+
+.aside__link {
+  color: #8a8a8a;
+  text-decoration: underline !important; }
+  .aside__link:hover {
+    color: #8a8a8a;
+    text-decoration: none !important; }
+
+.title3 {
+  margin-bottom: 20px; }
+
+.container__right {
+  float: right;
+  width: 860px; }
+
+.main {
+  background-color: #fff;
+  margin-bottom: 25px;
+  padding-bottom: 50px; }
+  .main__title {
+    text-align: center;
+    padding: 20px; }
+
+.section__right {
+  width: 66%;
+  float: right; }
+
+.main__img {
+  width: 33%;
+  float: left; }
+
+.main__pic {
+  margin: 0 auto;
+  width: 200px;
+  display: block; }
+
+.main__pic-comment {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #8a8a8a; }
+
+.list__color {
+  margin-left: -40px; }
+
+.color__item {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background: #9e7150;
+  border-radius: 5px; }
+
+.fa {
+  color: white;
+  font-size: 60px;
+  opacity: 0;
+  -webkit-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s; }
+
+.color__item:hover .fa {
+  opacity: 1; }
+
+.desc__color-comment {
+  width: 400px; }
+
+.sale {
+  width: 230px;
+  background: #eb5825;
+  text-align: center;
+  border-radius: 3px;
+  -webkit-transition: background 1s;
+  -o-transition: background 1s;
+  transition: background 1s; }
+  .sale:hover {
+    background: rgba(247, 57, 0, 0.13); }
+  .sale__link {
+    color: #fff;
+    padding: 10px;
+    display: block;
+    -webkit-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s; }
+
+.sale:hover .sale__link {
+  color: #eb5825;
+  text-decoration: none; }
+
+.sale__request-link {
+  color: #8a8a8a;
+  text-decoration: underline; }
+  .sale__request-link:hover {
+    text-decoration: none;
+    color: #8a8a8a; }
+
+.article {
+  padding: 20px 50px 15px 30px; }
+  .article__content {
+    margin-bottom: 28px; }
+  .article__label {
+    margin: 15px 0; }
+
+.label__pic, .paper, .label__num {
+  display: inline-block;
+  vertical-align: middle; }
+
+.label__pic {
+  width: 50px;
+  margin-right: 35px; }
+
+.paper {
+  width: 675px;
+  margin: 0; }
+
+.label__num {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  text-align: center;
+  font-weight: 600;
+  border: 2px solid #000;
+  margin-right: 20px; }
+
+.clearfix:after,
+.clearfix:before {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.wrapper:after,
+.wrapper:before {
+  content: " ";
+  display: table;
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */
